@@ -1,0 +1,64 @@
+
+
+#login 
+{ 
+ 
+margin: 120px auto; 
+width: 300px; 
+
+}
+#login h1 { 
+width: 208px;
+position: relative; 
+margin: 0; 
+padding: 15px; 
+font-size: 16px; 
+text-align: center; 
+color: #fff; 
+background-color: #3f7eb6; 
+font-family:Tahoma;
+}
+
+#login h1:after 
+{	
+
+position: absolute; 
+width: 100%; 
+}
+#login a 
+{ 
+color: #888; 
+text-decoration: none; 
+}
+
+
+
+#login fieldset 
+{	
+display: block; 
+margin: 0; 
+padding: 20px; 
+background: #fff; 
+
+}
+#login input 
+{ 
+width: 238px; 
+margin: 0; 
+padding: 12px 10px; 
+border: 1px solid #ccc; 
+
+font-size: 14px; 
+}
+
+{ 
+border-radius: 3px 3px 0 0; 
+}
+#login input[type="password"] 
+{	
+border-width: 0 1px; 
+border-radius: 0; 
+}
+.warning {
+   color: red;
+          }
